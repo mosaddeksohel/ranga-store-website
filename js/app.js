@@ -14,6 +14,7 @@ const showProducts = (products) => {
     const image = product.images;
     const div = document.createElement("div");
     div.classList.add("product");
+    // Dynamically Show Product 
     div.innerHTML = `<div class="single-product">
       <div>
         <img class="product-image" src=${product.image}></img>
